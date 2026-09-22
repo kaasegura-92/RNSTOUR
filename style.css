@@ -1,1 +1,83 @@
-body
+/* =========================
+   ESTILOS GENERALES
+   ========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #030503;
+    color: #34c258;
+}
+
+
+/* =========================
+   ENCABEZADO
+   ========================= */
+
+header {
+    background-color: hsl(0, 3%, 56%);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+
+/* =========================
+   MENÚ
+   ========================= */
+
+nav a {
+    text-decoration: none;
+    color: #f58d8d;
+    margin-left: 20px;
+}
+
+
+/* =========================
+   SECCIONES
+   ========================= */
+
+section {
+    padding: 60px 40px;
+}
+
+
+/* =========================
+   TÍTULOS
+   ========================= */
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   BOTONES
+   ========================= */
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* =========================
+   PIE DE PÁGINA
+   ========================= */
+
+footer {
+    background-color: #200606;
+    color: #ebbaba;
+    text-align: center;
+    padding: 20px;
+}
