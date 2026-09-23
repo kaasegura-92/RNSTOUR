@@ -91,7 +91,7 @@ footer {
     background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
     background-size: cover;
     background-position: center;
-    color: #fd3d3d;
+    color: #790505;
     background-color: rgba(3, 5, 3, 0.35);
 }
 .hero::before {
@@ -175,4 +175,64 @@ footer {
 .destino-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+.boton-wathsapp {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 3px;
+    background-color: #2fce69;
+    color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.boton-wathsapp:hover {
+    transform: scale(1.05);
+}
+.detalle-destino {
+    padding: 80px 40px;
+    text-align: center;
+    background-color: #f2fdca;
+}
+.detalle-destino h2 {
+    font-size: 36px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.beneficios {
+    padding: 80px 40px;
+    text-align: center;
+    background-color: #f2fdca;
+}
+.beneficios-intro {
+    margin-bottom: 45px;
+}
+.beneficios-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+.beneficio-card {
+    background-color: #f2fdca;
+    border-radius: 18px;
+    padding: 30px 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.beneficio-card i {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.bemneficio-card h3 {
+    font-size: 20px;
+}
+.beneficio-card p {
+    line-height: 1.5;
+}
+.beneficio-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
 }
