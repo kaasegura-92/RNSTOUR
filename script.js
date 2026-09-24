@@ -54,4 +54,3 @@ carruseles.forEach((carrusel, indice) => {
 
     }, 3000);
 
-});

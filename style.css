@@ -5,8 +5,8 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #030503;
-    color: #000000;
+    background-color: #f5f5f5;
+    color: #222222;
 }
 
 
@@ -93,6 +93,7 @@ footer {
     background-position: center;
     color: #790505;
     background-color: rgba(3, 5, 3, 0.35);
+    position: relative;
 }
 .hero::before {
     content: "";
@@ -174,7 +175,7 @@ footer {
 }
 .destino-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 35px rgba(245, 1, 1, 0.973);
 }
 .boton-wathsapp {
     display: inline-block;
@@ -201,15 +202,15 @@ footer {
 html {
     scroll-behavior: smooth;
 }
-.beneficios {
+.beneficio {
     padding: 80px 40px;
     text-align: center;
-    background-color: #f2fdca;
+    background-color: #d2ff30;
 }
-.beneficios-intro {
+.beneficio-intro {
     margin-bottom: 45px;
 }
-.beneficios-grid {
+.beneficio-grid {
     max-width: 1100px;
     margin: 0 auto;
     display: grid;
@@ -217,22 +218,119 @@ html {
     gap: 25px;
 }
 .beneficio-card {
-    background-color: #f2fdca;
+    background-color: #d2ff30;
     border-radius: 18px;
     padding: 30px 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #ffda07;
+    color: #333333;
+    text-align: center;
+    box-sizing: border-box;
 }
 .beneficio-card i {
     font-size: 36px;
     margin-bottom: 15px;
+    color: #2a7f7f
 }
-.bemneficio-card h3 {
+.beneficio-card h3 {
     font-size: 20px;
+    color: #1f4d4d;
+    margin: 15px 0;
 }
 .beneficio-card p {
     line-height: 1.5;
+    margin: 0;
 }
 .beneficio-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 15px 30px rgba(88, 2, 2, 0.12);
+}
+.beneficio-grid {
+    position: relative;
+    display: grid;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    box-sizing: border-box;
+}
+.como-funciona {
+    padding: 80px 40px;
+    text-align: center;
+}
+.como-intro {
+    margin-bottom: 45px;
+}
+.pasos-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.paso-card {
+    background-color: coral;
+    padding: 35px 25px;
+    border-radius: 18px;
+    border: 1px solid #f10202;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.numero-paso {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.paso-card i {
+    font-size: 40px;
+    margin: 15px 0;
+}
+.paso-card h3 {
+    font-size: 21px;
+}
+.paso-card p {
+    line-height: 1.6;
+}
+.paso-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+.contacto {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.contacto-intro {
+    max-width: 650px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.boton-wathsapp {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #25D366;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.boton-wathsapp:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+section {
+    position: relative;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+main {
+    display: block;
+    width: 100%;
 }
