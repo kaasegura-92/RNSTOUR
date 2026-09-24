@@ -1,211 +1,1536 @@
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>RNS TOUR</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js" defer></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    </head>
-    <body>
-        <header>
-        <h1>Experiencias Únicas</h1>
-        <i class="fa-solid fa-sailboat"></i>
-<nav>
-    <a href="#inicio">Inicio</a>
-    <a href="#destinos">Destinos</a>
-    <a href="#galeria">Galeria</a>
-    <a href="#experiencias">Experiencias</a>
-    <a href="#contactos">Contactos</a>
-</nav>
-</header>
-<main>
-    <section id="inicio" class="hero">
-        <div class="hero-contenido">
-            <p class="hero-subtitulo">Tu agencia de viajes confiable para experiencias inolvidables</p>
-            <h2>RNS TOUR</h2>
-            <h3>Tu Próxima Aventura COMIENZA ACÁ</h3>
-        <p>Descubri nuestros destinos y empezá a planificar tu próimo viaje</p>
-        <a
-        href="https://wa.me/5522981265571"
-        target="_blank" 
-        class="boton-wathsapp">Quiero Viajar</a>
 
-        <p>
-        <i class="fa-solid fa-plane"></i> Cotizaciones de Vuelos
-        <i class="fa-solid fa-hotel"></i> Alojamiento
-        <i class="fa-solid fa-car"></i> Alquiler de Autos/Buggy
-        <i class="fa-solid fa-sailboat"></i> Paseos en Barco
-        <i class="fa-solid fa-person-swimming"></i> Actividades Acuáticas
-        </p>
-        </div>
-    </section>
-    <section id="BRASIL" class="detalle-destino">
-    <h2>TURISMO Y MÁS</h2>
-    <div class="detalle-destino-contenido">
-        <div class="detalle-destino-imagen">
-            <img src="./imagenes/rns1.png" alt="RNS TOUR">
-        </div>
-        <div class="detalle-destino-info">
-            <p>Descubre la magia de Brasil con nuestros paquetes turísticos exclusivos. Desde las playas de arena blanca hasta la vibrante cultura, Brasil tiene algo para todos. Explora destinos icónicos como Río de Janeiro, Salvador y más lugares. Nuestros paquetes incluyen alojamiento, transporte y actividades emocionantes para que tu experiencia sea inolvidable.</p>
-            <a href="https://wa.me/5522981265571" target="_blank" class="boton-wathsapp">Quiero Viajar</a>
-        </div>
-    </div> 
-    </section>
+<head>
 
-<section id="destinos">
-    <h2>Destinos</h2>
-    <!--BRASIL-->
+    <title>RNS TOUR</title>
 
-    <div class="destino-card">
-        <div class="carrusel">
-            <img 
-            class="imagen-carrusel"
-            src="./imagenes/rns1.png" 
-            alt="RNS TOUR">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         HEADER
+         ========================= -->
+
+    <header>
+
+        <div class="logo">
+
+            <h1>RNS TOUR</h1>
+
+            <span>BUZIOS</span>
+
         </div>
 
-    <h3> DESCUBRÍ BRASIL</h3>
-    <p>Descubre la magia de Brasil con nuestros paquetes turísticos exclusivos.</p>
-    <p> 
-        <i class="fa-solid fa-calendar-check"></i> Próximas Salidas
-        <i class="fa-solid fa-dollar-sign"></i> Consultar Precios
-    </p>
 
-    <a href="#BRASIL" class="boton-wathsapp">Ver destino</a>
-    </div>
+        <nav>
 
-<!-- BUZIOS-->
-<div class="destino-card">
-        <div class="carrusel">
-        <img
-        class="imagen-carrusel"
-         src="./imagenes/buzios-1.png" 
-         alt="Buzios">
+            <a href="#inicio">Inicio</a>
+
+            <a href="#experiencias">Experiencias</a>
+
+            <a href="#rns-pass">RNS PASS</a>
+
+            <a href="#buzios">BUzios</a>
+
+            <a href="#contacto">Contacto</a>
+
+        </nav>
+
+
+        <div class="idiomas">
+
+            <button id="btn-es">🇪🇸 ES</button>
+
+            <button id="btn-pt">🇧🇷 PT</button>
+
         </div>
-        <h3>BUZIOS</h3>
-        <p>Descubre las aguas cristalinas y la belleza natural de Buzios con nuestros paquetes turísticos exclusivos.</p>
-        <p>
-        <i class="fa-solid fa-calendar-check"></i> Próximas Salidas
-        <i class="fa-solid fa-dollar-sign"></i> Consultar Precios
-        </p>
-        <a href="#buzios" class="boton-destino">Ver destino</a>    
-</div>
 
-<!--RIO DE JANEIRO-->
-<div class="destino-card">
-        <div class="carrusel">
-            <img
-            class="imagen-carrusel"
-            src="./imagenes/rio-2.jpg"
-            alt="Río de Janeiro">
-        </div>
-        
-    <h3>RIO DE JANEIRO</h3>
-    <p>Descubre la vibrante cultura y la belleza natural de Río de Janeiro con nuestros paquetes turísticos exclusivos.</p>
-   <p> 
-        <i class="fa-solid fa-calendar-check"></i> Próximas Salidas
-        <i class="fa-solid fa-dollar-sign"></i> Consultar Precios
-    </p>
-    <a href="#rio-de-janeiro" class="boton-destino">Ver destino</a>
-</div>
-</section>
+    </header>
 
- <section id="beneficios" class="beneficio">
-        <h2>¿Por qué viajar con RNS TOUR?</h2>
-        <p class="beneficio-intro">Experiencia y Confiabilidad: Contamos con años de experiencia en la industria del turismo, brindando servicios confiables y de calidad a nuestros clientes.</p>
-        <div class="beneficio-grid">
-            <div class="beneficio-card">
-                <i class="fa-solid fa-plane"></i>
-                <h3>Paquetes Personalizados, Destinos Increíbles</h3>
-                <p>Ofrecemos paquetes turísticos adaptados a tus preferencias, asegurando que cada viaje sea único y memorable.</p>
+
+
+    <!-- =========================
+         CONTENIDO PRINCIPAL
+         ========================= -->
+
+    <main>
+
+
+        <!-- =========================
+             HERO
+             ========================= -->
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-contenido">
+
+                <p class="hero-marca">
+                    RNS TOUR · BUZIOS
+                </p>
+
+
+                <h2>
+                    Viví Buzios como alguien que lo conoce.
+                </h2>
+
+
+                <p>
+                    Experiencias seleccionadas,
+                    recomendaciones locales y atención
+                    personalizada para aprovechar cada día
+                    de tu viaje.
+                </p>
+
+
+                <div class="hero-botones">
+
+                    <a
+                        href="#experiencias"
+                        class="boton-principal"
+                    >
+                        Explorar experiencias
+                    </a>
+
+
+                    <a
+                        href="https://wa.me/5522981265571"
+                        target="_blank"
+                        class="boton-wathsapp"
+                    >
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                        Hablar por WhatsApp
+
+                    </a>
+
+                </div>
+
             </div>
-            <div class="beneficio-card">
-                <i class="fa-solid fa-hotel"></i>
-                <h3>Asesoramiento Experto, Viajes sin Estrés</h3>
-                <p>Contamos con un equipo de expertos que te guiarán en cada paso del proceso, asegurando que tu viaje sea sin complicaciones.</p>
-            </div>
-            <div class="beneficio-card">
-                <i class="fa-solid fa-dollar-sign"></i>
-                <h3>Precios Competitivos, Valor Inigualable</h3>
-                <p>Ofrecemos precios competitivos y un excelente valor por tu inversión, asegurando que obtengas la mejor experiencia posible.</p>
-            </div>
-            <div class="beneficio-card">
-                <i class="fa-solid fa-calendar-check"></i>
-                <h3>Próximas Salidas, Oportunidades Únicas</h3>
-                <p>Ofrecemos salidas regulares a destinos populares, brindándote la oportunidad de explorar lugares increíbles en el momento adecuado.</p>
-            </div>
-        </div>
-    </section>
-<section id="como-funciona" class="como-funciona">
-    <h2>¿Cómo funciona?</h2>
-    <p class="como-intro">
-        Organizar tu próximo viaje es mas fácil de lo que pensas.
-    </p>
-    <div class="pasos-grid">
-        <div class="paso-card">
-            <div class="numero-paso">1</div>
-            <i class="fa-solid fa-map-location-dot"></i>
-            <h3>Elegí tu destino</h3>
-            <p>
-                Explorá nuestras propuestas y encohntrá el lugar ideal para vos.
-            </p>
-        </div>
-        <div class="paso-card">
-            <div class="numero-paso">2</div>
-            <i class="fa-brands fa-wathsapp"></i>
-            <h3>Consultanos</h3>
-            <p>
-                Ecribinos por WathsApp y te ayudamos a planificar tu viaje.
-            </p>
-        </div>
-        <div class="paso-card">
-            <div class="numero-paso">3</div>
-            <i class="fa-solid fa-suitcase-rolling"></i>
-            <h3>Prepará las valijas</h3>
-            <p> ¡Listo! Solo queda disfrutar de la experiencia</p>
-        </div>
+
+        </section>
     
-    </div>
+        <!-- =========================
+             RESEÑAS
+             ========================= -->
 
-</section>
+        <section
+            id="resenas"
+            class="resenas"
+        >
 
-<section id="experiencias">
-<h2>Experiencia de nuestros viajeros</h2>
-<div>
-    <p>"Excelente la experiencia completa"</p>
-    <strong>Cliente RNS TOUR</strong>
-</div>
-<div>
-    <p>"Todo estuvo muy bien organizado"</p>
-    <strong>Cliente 2 RNS TOUR</strong>
-</div>
-<div>
-    <p>"Nahu es un genio, volvería a elegirlo sin dudas"</p>
-    <strong>Cliente 3 RNS TOUR</strong>
-</div>
-</section>
+            <div class="seccion-encabezado">
 
-<section id="contacto" class="contacto">
+                <p class="seccion-etiqueta">
+                    EXPERIENCIAS REALES
+                </p>
 
-    <h2>¿Listo para tu próxima aventura?</h2>
 
-    <p class="contacto-intro">
-        Consultanos por nuestros próximos viajes y empezá a planificar tu experiencia.
-    </p>
+                <h2>
+                    Lo que dicen nuestros viajeros.
+                </h2>
 
-    <a
-        href="https://wa.me/5522981265571"
-        target="_blank"
-        class="boton-wathsapp">
-        <i class="fa-brands fa-whatsapp"></i>
-        Contactanos por WhatsApp
-    </a>
 
-</section>
+                <p>
+                    Descubrí las experiencias de quienes
+                    ya conocieron Búzios con RNS Tour.
+                </p>
 
-</main>
-<footer>
-    <p>© 2026 RNS TOUR, Agente de viajes</p>
-</footer>   
-        </body>
-        </html>
+            </div>
+
+
+
+            <!-- RESEÑAS -->
+
+            <div class="resenas-grid">
+
+
+                <!-- RESEÑA 1 -->
+
+                <article class="resena-card">
+
+                    <div class="resena-estrellas">
+                        ★★★★★
+                    </div>
+
+
+                    <p class="resena-texto">
+                        [REEMPLAZAR CON RESEÑA REAL]
+                    </p>
+
+
+                    <div class="resena-persona">
+
+                        <div class="resena-avatar">
+                            👤
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                Nombre del cliente
+                            </strong>
+
+                            <span>
+                                Google
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- RESEÑA 2 -->
+
+                <article class="resena-card">
+
+                    <div class="resena-estrellas">
+                        ★★★★★
+                    </div>
+
+
+                    <p class="resena-texto">
+                        [REEMPLAZAR CON RESEÑA REAL]
+                    </p>
+
+
+                    <div class="resena-persona">
+
+                        <div class="resena-avatar">
+                            👤
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                Nombre del cliente
+                            </strong>
+
+                            <span>
+                                Google
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- RESEÑA 3 -->
+
+                <article class="resena-card">
+
+                    <div class="resena-estrellas">
+                        ★★★★★
+                    </div>
+
+
+                    <p class="resena-texto">
+                        [REEMPLAZAR CON RESEÑA REAL]
+                    </p>
+
+
+                    <div class="resena-persona">
+
+                        <div class="resena-avatar">
+                            👤
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                Nombre del cliente
+                            </strong>
+
+                            <span>
+                                Instagram
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+
+            <!-- CTA RESEÑAS -->
+
+            <div class="resenas-cta">
+
+                <p>
+                    ¿Querés conocer más experiencias?
+                </p>
+
+
+                <div class="resenas-botones">
+
+
+                    <!-- GOOGLE -->
+
+                    <a
+                        href="#"
+                        target="_blank"
+                        class="boton-secundario"
+                    >
+
+                        <i class="fa-brands fa-google"></i>
+
+                        Ver reseñas en Google
+
+                    </a>
+
+
+                    <!-- INSTAGRAM -->
+
+                    <a
+                        href="https://www.instagram.com/stories/highlights/18334152133250193/"
+                        target="_blank"
+                        class="boton-secundario"
+                    >
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                        Ver experiencias en Instagram
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             EXPERIENCIAS
+             ========================= -->
+
+        <section
+            id="experiencias"
+            class="experiencias"
+        >
+
+
+            <div class="seccion-encabezado">
+
+                <p class="seccion-etiqueta">
+                    DESCUBRÍ BUZIOS
+                </p>
+
+
+                <h2>
+                    Experiencias para vivir la región
+                </h2>
+
+
+                <p>
+                    Elegí entre excursiones, paseos y
+                    actividades para disfrutar Búzios
+                    y sus alrededores.
+                </p>
+
+            </div>
+
+
+
+            <div class="experiencias-grid">
+
+
+
+                <!-- ARRAIAL DO CABO -->
+
+                <article class="experiencia-card">
+
+                    <div class="experiencia-imagen">
+
+                        <img
+                            src="./imagenes/arraial.png"
+                            alt="Arraial do Cabo"
+                        >
+
+                    </div>
+
+
+                    <div class="experiencia-info">
+
+                        <h3>
+                            Arraial do Cabo
+                        </h3>
+
+
+                        <p>
+                            Un día para descubrir aguas
+                            cristalinas y paisajes increíbles.
+                        </p>
+
+
+                        <span class="precio">
+                            Desde R$210
+                        </span>
+
+
+                        <a
+                            href="https://wa.me/5522981265571"
+                            target="_blank"
+                            class="boton-experiencia"
+                        >
+                            Consultar
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- RÍO FULL DAY -->
+
+                <article class="experiencia-card">
+
+                    <div class="experiencia-imagen">
+
+                        <img
+                            src="./imagenes/rio-2.jpg"
+                            alt="Río de Janeiro"
+                        >
+
+                    </div>
+
+
+                    <div class="experiencia-info">
+
+                        <h3>
+                            Río Full Day
+                        </h3>
+
+
+                        <p>
+                            Descubrí algunos de los lugares
+                            más conocidos de Río de Janeiro.
+                        </p>
+
+
+                        <span class="precio">
+                            Desde R$380
+                        </span>
+
+
+                        <a
+                            href="https://wa.me/5522981265571"
+                            target="_blank"
+                            class="boton-experiencia"
+                        >
+                            Consultar
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- BUGGY -->
+
+                <article class="experiencia-card">
+
+                    <div class="experiencia-imagen">
+
+                        <img
+                            src="./imagenes/buzios-1.png"
+                            alt="Paseo en buggy por Búzios"
+                        >
+
+                    </div>
+
+
+                    <div class="experiencia-info">
+
+                        <h3>
+                            Buggy
+                        </h3>
+
+
+                        <p>
+                            Recorré Búzios de una manera
+                            diferente y disfrutá sus paisajes.
+                        </p>
+
+
+                        <span class="precio">
+                            Desde R$150
+                        </span>
+
+
+                        <a
+                            href="https://wa.me/5522981265571"
+                            target="_blank"
+                            class="boton-experiencia"
+                        >
+                            Consultar
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- MERGULHO -->
+
+                <article class="experiencia-card">
+
+                    <div class="experiencia-imagen">
+
+                        <img
+                            src="./imagenes/mergulho.png"
+                            alt="Mergulho en Búzios"
+                        >
+
+                    </div>
+
+
+                    <div class="experiencia-info">
+
+                        <h3>
+                            Mergulho
+                        </h3>
+
+
+                        <p>
+                            Explorá las aguas de Búzios y
+                            viví una experiencia diferente.
+                        </p>
+
+
+                        <span class="precio">
+                            Desde R$260
+                        </span>
+
+
+                        <a
+                            href="https://wa.me/5522981265571"
+                            target="_blank"
+                            class="boton-experiencia"
+                        >
+                            Consultar
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PASEOS EN BARCO -->
+
+                <article class="experiencia-card">
+
+                    <div class="experiencia-imagen">
+
+                        <img
+                            src="./imagenes/barco.png"
+                            alt="Paseo en barco por Búzios"
+                        >
+
+                    </div>
+
+
+                    <div class="experiencia-info">
+
+                        <h3>
+                            Paseos en barco
+                        </h3>
+
+
+                        <p>
+                            Navegá por la costa de Búzios
+                            y conocé sus playas desde el mar.
+                        </p>
+
+
+                        <span class="precio">
+                            Desde R$80
+                        </span>
+
+
+                        <a
+                            href="https://wa.me/5522981265571"
+                            target="_blank"
+                            class="boton-experiencia"
+                        >
+                            Consultar
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- DOCANTO SUNSET -->
+
+                <article
+                    class="experiencia-card experiencia-premium"
+                >
+
+                    <div class="experiencia-imagen">
+
+                        <img
+                            src="./imagenes/docanto.png"
+                            alt="DoCanto Sunset"
+                        >
+
+                    </div>
+
+
+                    <div class="experiencia-info">
+
+                        <span class="experiencia-tag">
+                            EXPERIENCIA PREMIUM
+                        </span>
+
+
+                        <h3>
+                            DoCanto Sunset
+                        </h3>
+
+
+                        <p>
+                            Disfrutá el atardecer con una
+                            experiencia especial en Búzios.
+                        </p>
+
+
+                        <span class="precio">
+                            Desde R$200
+                        </span>
+
+
+                        <a
+                            href="https://wa.me/5522981265571"
+                            target="_blank"
+                            class="boton-experiencia"
+                        >
+                            Consultar
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- TRASLADOS -->
+
+                <article class="experiencia-card">
+
+                    <div class="experiencia-imagen">
+
+                        <img
+                            src="./imagenes/traslado.png"
+                            alt="Traslados privados"
+                        >
+
+                    </div>
+
+
+                    <div class="experiencia-info">
+
+                        <h3>
+                            Traslados privados
+                        </h3>
+
+
+                        <p>
+                            Coordiná tu traslado para viajar
+                            con comodidad desde y hacia Búzios.
+                        </p>
+
+
+                        <span class="precio">
+                            Desde R$500
+                        </span>
+
+
+                        <a
+                            href="https://wa.me/5522981265571"
+                            target="_blank"
+                            class="boton-experiencia"
+                        >
+                            Consultar
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+            </div>
+
+        </section>
+        
+        <!-- =========================
+             PRIMERA VEZ EN BÚZIOS
+             ========================= -->
+ 
+
+        <section
+            id="buzios"
+            class="primera-vez"
+        >
+
+            <div class="primera-vez-contenido">
+
+                <p class="seccion-etiqueta">
+                    ¿PRIMERA VEZ EN BÚZIOS?
+                </p>
+
+
+                <h2>
+                    Te ayudamos a organizar tu viaje.
+                </h2>
+
+
+                <p>
+                    Contanos qué tipo de experiencia
+                    estás buscando y te ayudamos a
+                    elegir las opciones que mejor se
+                    adapten a tu viaje.
+                </p>
+
+
+                <!-- TARJETAS -->
+
+                <div class="opciones-viaje">
+
+
+                    <!-- CONOCER BÚZIOS -->
+
+                    <article class="opcion-viaje">
+
+                        <div class="opcion-icono">
+                            🌴
+                        </div>
+
+                        <h3>
+                            Conocer Búzios
+                        </h3>
+
+                        <p>
+                            Playas, lugares y recomendaciones
+                            para aprovechar tu estadía.
+                        </p>
+
+                        <a
+                            href="https://wa.me/5522981265571?text=Hola%20Nahuel!%20Quiero%20conocer%20B%C3%BAzios%20y%20me%20gustar%C3%ADa%20recibir%20recomendaciones."
+                            target="_blank"
+                            class="boton-opcion"
+                        >
+                            Quiero esto
+                        </a>
+
+                    </article>
+
+
+
+                    <!-- EXCURSIONES -->
+
+                    <article class="opcion-viaje">
+
+                        <div class="opcion-icono">
+                            🚤
+                        </div>
+
+                        <h3>
+                            Excursiones
+                        </h3>
+
+                        <p>
+                            Arraial, Río, paseos en barco
+                            y más opciones para descubrir
+                            la región.
+                        </p>
+
+                        <a
+                            href="https://wa.me/5522981265571?text=Hola%20Nahuel!%20Quiero%20conocer%20las%20excursiones%20disponibles."
+                            target="_blank"
+                            class="boton-opcion"
+                        >
+                            Quiero esto
+                        </a>
+
+                    </article>
+
+
+
+                    <!-- EXPERIENCIAS ESPECIALES -->
+
+                    <article class="opcion-viaje">
+
+                        <div class="opcion-icono">
+                            ✨
+                        </div>
+
+                        <h3>
+                            Algo especial
+                        </h3>
+
+                        <p>
+                            Experiencias diferentes para
+                            disfrutar Búzios de una manera
+                            especial.
+                        </p>
+
+                        <a
+                            href="https://wa.me/5522981265571?text=Hola%20Nahuel!%20Estoy%20buscando%20una%20experiencia%20especial%20en%20B%C3%BAzios."
+                            target="_blank"
+                            class="boton-opcion"
+                        >
+                            Quiero esto
+                        </a>
+
+                    </article>
+
+
+
+                    <!-- TRASLADOS -->
+
+                    <article class="opcion-viaje">
+
+                        <div class="opcion-icono">
+                            🚗
+                        </div>
+
+                        <h3>
+                            Necesito traslado
+                        </h3>
+
+                        <p>
+                            Coordiná tu llegada y traslado
+                            para viajar con comodidad.
+                        </p>
+
+                        <a
+                            href="https://wa.me/5522981265571?text=Hola%20Nahuel!%20Necesito%20informaci%C3%B3n%20sobre%20traslados%20en%20B%C3%BAzios."
+                            target="_blank"
+                            class="boton-opcion"
+                        >
+                            Quiero esto
+                        </a>
+
+                    </article>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =========================
+                 POR QUÉ RNS
+                 ========================= -->
+
+            <div class="porque-rns">
+
+                <p class="seccion-etiqueta">
+                    ¿POR QUÉ RNS?
+                </p>
+
+
+                <h2>
+                    Todo más simple durante tu viaje.
+                </h2>
+
+
+                <div class="porque-rns-grid">
+
+
+                    <div class="porque-item">
+
+                        <span>📍</span>
+
+                        <h3>
+                            Conocimiento local
+                        </h3>
+
+                        <p>
+                            Recomendaciones pensadas para
+                            disfrutar mejor tu estadía.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="porque-item">
+
+                        <span>💬</span>
+
+                        <h3>
+                            Atención directa
+                        </h3>
+
+                        <p>
+                            Un contacto directo para resolver
+                            tus consultas y coordinar tus reservas.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="porque-item">
+
+                        <span>✨</span>
+
+                        <h3>
+                            Experiencias seleccionadas
+                        </h3>
+
+                        <p>
+                            Opciones pensadas para distintos
+                            estilos de viaje.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="porque-item">
+
+                        <span>🤝</span>
+
+                        <h3>
+                            Acompañamiento
+                        </h3>
+
+                        <p>
+                            Estamos disponibles para ayudarte
+                            durante tu experiencia.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="porque-item">
+
+                        <span>👨‍👩‍👧‍👦</span>
+
+                        <h3>
+                            Para cada tipo de viaje
+                        </h3>
+
+                        <p>
+                            Opciones para parejas, familias
+                            y grupos.
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+       
+        <!-- =========================
+             RNS PASS
+             ========================= -->
+
+        <section
+            id="rns-pass"
+            class="rns-pass"
+        >
+
+            <div class="rns-pass-contenido">
+
+                <p class="seccion-etiqueta">
+                    RNS PASS
+                </p>
+
+
+                <h2>
+                    Disfrutá Búzios de otra manera.
+                </h2>
+
+
+                <p>
+                    Beneficios, recomendaciones y ventajas
+                    para aprovechar mejor tu estadía en Búzios.
+                </p>
+
+
+                <a
+                    href="https://wa.me/5522981265571?text=Hola%20Nahuel!%20Quiero%20conocer%20los%20beneficios%20del%20RNS%20PASS."
+                    target="_blank"
+                    class="boton-principal"
+                >
+                    Quiero conocer los beneficios
+                </a>
+
+            </div>
+
+        </section>
+      
+        <!-- =========================
+             DOCANTO SUNSET
+             ========================= -->
+
+        <section
+            id="docanto"
+            class="docanto"
+        >
+
+            <div class="docanto-contenido">
+
+
+                <!-- ENCABEZADO -->
+
+                <div class="docanto-encabezado">
+
+                    <p class="seccion-etiqueta">
+                        EXPERIENCIA ESPECIAL
+                    </p>
+
+
+                    <h2>
+                        DoCanto Sunset
+                    </h2>
+
+
+                    <p>
+                        Atardeceres, mar y música en Búzios.
+                    </p>
+
+
+                    <p>
+                        Una propuesta diferente para disfrutar
+                        Búzios desde el mar, con paseos en barco,
+                        sunsets y fechas especiales.
+                    </p>
+
+                </div>
+
+
+
+                <!-- VIDEOS -->
+
+                <div class="docanto-videos">
+
+
+                    <!-- SUNSET -->
+
+                    <article class="docanto-video-card">
+
+                        <div class="docanto-video">
+
+                            <video
+                                controls
+                                playsinline
+                                muted
+                                loop
+                                poster="./imagenes/docanto-sunset.jpg"
+                            >
+
+                                <source
+                                    src="./videos/docanto-sunset.mp4"
+                                    type="video/mp4"
+                                >
+
+                                Tu navegador no puede reproducir
+                                este video.
+
+                            </video>
+
+                        </div>
+
+
+                        <div class="docanto-video-info">
+
+                            <span>
+                                🌅 SUNSET
+                            </span>
+
+                            <h3>
+                                Atardecer desde el mar
+                            </h3>
+
+                            <p>
+                                Viví el sunset de Búzios
+                                desde una perspectiva diferente.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- BARCO -->
+
+                    <article class="docanto-video-card">
+
+                        <div class="docanto-video">
+
+                            <video
+                                controls
+                                playsinline
+                                muted
+                                loop
+                                poster="./imagenes/docanto-barco.jpg"
+                            >
+
+                                <source
+                                    src="./videos/docanto-barco.mp4"
+                                    type="video/mp4"
+                                >
+
+                                Tu navegador no puede reproducir
+                                este video.
+
+                            </video>
+
+                        </div>
+
+
+                        <div class="docanto-video-info">
+
+                            <span>
+                                🛥️ BOAT EXPERIENCE
+                            </span>
+
+                            <h3>
+                                Búzios desde el agua
+                            </h3>
+
+                            <p>
+                                Una experiencia para disfrutar
+                                del mar, la costa y el paisaje
+                                de Búzios.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- FIESTAS -->
+
+                    <article class="docanto-video-card">
+
+                        <div class="docanto-video">
+
+                            <video
+                                controls
+                                playsinline
+                                muted
+                                loop
+                                poster="./imagenes/docanto-fiesta.jpg"
+                            >
+
+                                <source
+                                    src="./videos/docanto-fiesta.mp4"
+                                    type="video/mp4"
+                                >
+
+                                Tu navegador no puede reproducir
+                                este video.
+
+                            </video>
+
+                        </div>
+
+
+                        <div class="docanto-video-info">
+
+                            <span>
+                                🎉 EVENTOS
+                            </span>
+
+                            <h3>
+                                Sunset, música y fiesta
+                            </h3>
+
+                            <p>
+                                Fechas especiales con música,
+                                barco y una propuesta diferente
+                                para disfrutar Búzios.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+
+
+                <!-- CTA -->
+
+                <div class="docanto-cta">
+
+                    <p>
+                        ¿Querés conocer las próximas fechas
+                        y experiencias?
+                    </p>
+
+
+                    <div class="docanto-botones">
+
+                        <a
+                            href="https://www.instagram.com/docantosunset/"
+                            target="_blank"
+                            class="boton-principal"
+                        >
+                            Ver DoCanto Sunset
+                        </a>
+
+
+                        <a
+                            href="https://wa.me/5522981265571?text=Hola%20Nahuel!%20Quiero%20conocer%20las%20pr%C3%B3ximas%20fechas%20de%20DoCanto%20Sunset."
+                            target="_blank"
+                            class="boton-wathsapp"
+                        >
+
+                            <i class="fa-brands fa-whatsapp"></i>
+
+                            Consultar fechas
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!-- =========================
+             CONTENIDO LOCAL
+             ========================= -->
+
+        <section
+            id="contenido"
+            class="contenido-local"
+        >
+
+            <div class="seccion-encabezado">
+
+                <p class="seccion-etiqueta">
+                    CONOCÉ BÚZIOS
+                </p>
+
+
+                <h2>
+                    El Búzios que pocos te muestran.
+                </h2>
+
+
+                <p>
+                    Ideas, lugares y recomendaciones para
+                    disfrutar Búzios más allá de las excursiones.
+                </p>
+
+            </div>
+
+            <div class="contenido-grid">
+
+
+                <!-- PLAYAS -->
+
+                <article class="contenido-card">
+
+                    <div class="contenido-imagen">
+
+                        <img
+                            src="./imagenes/playas-buzios.jpg"
+                            alt="Playas de Búzios"
+                        >
+
+                    </div>
+
+
+                    <div class="contenido-info">
+
+                        <h3>
+                            Playas diferentes
+                        </h3>
+
+                        <p>
+                            Descubrí lugares para disfrutar
+                            el mar y conocer otros rincones
+                            de Búzios.
+                        </p>
+
+
+                        <a
+                            href="#"
+                            class="link-contenido"
+                        >
+                            Descubrir →
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- MIRADORES -->
+
+                <article class="contenido-card">
+
+                    <div class="contenido-imagen">
+
+                        <img
+                            src="./imagenes/miradores-buzios.jpg"
+                            alt="Miradores de Búzios"
+                        >
+
+                    </div>
+
+
+                    <div class="contenido-info">
+
+                        <h3>
+                            Miradores
+                        </h3>
+
+                        <p>
+                            Rincones con vistas increíbles
+                            para disfrutar Búzios desde otra
+                            perspectiva.
+                        </p>
+
+
+                        <a
+                            href="#"
+                            class="link-contenido"
+                        >
+                            Descubrir →
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- SUNSET -->
+
+                <article class="contenido-card">
+
+                    <div class="contenido-imagen">
+
+                        <img
+                            src="./imagenes/sunset-buzios.jpg"
+                            alt="Sunset en Búzios"
+                        >
+
+                    </div>
+
+
+                    <div class="contenido-info">
+
+                        <h3>
+                            Dónde ver el sunset
+                        </h3>
+
+                        <p>
+                            Algunos de los lugares que
+                            recomendamos para disfrutar
+                            el atardecer.
+                        </p>
+
+
+                        <a
+                            href="#"
+                            class="link-contenido"
+                        >
+                            Descubrir →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+            <div class="contenido-cta">
+
+                <p>
+                    Más recomendaciones y contenido
+                    local en nuestras redes.
+                </p>
+
+                <a
+                    href="https://www.instagram.com/rns.tour/"
+                    target="_blank"
+                    class="boton-principal"
+                >
+                    Ver Instagram
+                </a>
+
+            </div>
+
+        </section>
+    
+        <!-- =========================
+             QUIÉN ESTÁ DETRÁS
+             ========================= -->
+
+        <section
+            id="quien-soy"
+            class="quien-soy"
+        >
+
+            <div class="quien-soy-contenido">
+
+
+                <!-- VIDEO -->
+
+                <div class="quien-soy-video">
+
+                    <video
+                        controls
+                        playsinline
+                        muted
+                        poster="./imagenes/nahuel.jpg"
+                    >
+
+                        <source
+                            src="./videos/nahuel-rns.mp4"
+                            type="video/mp4"
+                        >
+
+                        Tu navegador no puede reproducir
+                        este video.
+
+                    </video>
+
+                </div>
+
+
+
+                <!-- TEXTO -->
+
+                <div class="quien-soy-texto">
+
+                    <p class="seccion-etiqueta">
+                        QUIÉN ESTÁ DETRÁS
+                    </p>
+
+
+                    <h2>
+                        Hola, soy Nahuel.
+                    </h2>
+
+
+                    <p>
+                        Vivo en BUzios y creé RNS Tour para
+                        ayudar a viajeros a conocer la región
+                        de una forma más simple, cercana y
+                        personalizada.
+                    </p>
+
+
+                    <p>
+                        Mi objetivo es que puedas disfrutar
+                        tu viaje, descubrir nuevas experiencias
+                        y contar con recomendaciones para
+                        aprovechar cada momento de tu estadía.
+                    </p>
+
+
+                    <!-- BOTONES -->
+
+                    <div class="quien-soy-botones">
+
+                        <a
+                            href="https://wa.me/5522981265571?text=Hola%20Nahuel!%20Vi%20RNS%20Tour%20y%20quiero%20consultarte%20sobre%20B%C3%BAzios."
+                            target="_blank"
+                            class="boton-wathsapp"
+                        >
+
+                            <i class="fa-brands fa-whatsapp"></i>
+
+                            Hablar con Nahuel
+
+                        </a>
+
+
+                        <a
+                            href="https://www.instagram.com/rns.tour/"
+                            target="_blank"
+                            class="boton-secundario"
+                        >
+
+                            <i class="fa-brands fa-instagram"></i>
+
+                            Instagram RNS Tour
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+         ========================= -->
+
+    <footer>
+
+        <p>
+            © 2026 RNS TOUR · Búzios
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
+
